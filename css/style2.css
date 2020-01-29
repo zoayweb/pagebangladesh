@@ -1,0 +1,243 @@
+
+.gallery-item {
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    border: none;
+ }
+    .gallery-item .custom-progress-success {
+      background-color: #f2f2f2;
+      height: .2rem;
+      border-radius: 4px;
+      margin-bottom: 20px; }
+    .gallery-item a {
+      color: #000; }
+      .gallery-item a:hover {
+        color: #79ccab; }
+    .gallery-item .donation-time {
+      color: #ccc;
+      display: block;
+      font-style: italic;
+      font-size: 15px; }
+    .gallery-item .card-title {
+      font-size: 24px; }
+
+    .gallery-item img {
+        height: 200px;
+    }
+
+    
+.team{
+    margin-top: 50px;
+  }
+  .team h1{
+      font-family: 'Paytone One', sans-serif;
+      font-size: 3rem;
+   color: rgba(65, 64, 64, 0.637);
+    padding-bottom: 1em;
+  }
+  .item p{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .team span{
+  font-size: 3rem;
+  }
+  .team span.red{
+    color: #f0b762;
+  }
+  .team .team-body{
+    padding: 0 0 3em 2em;
+  }
+  .team .item{ 
+    text-align: center;
+    padding: 1em 0;
+  }
+  .team img{
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+  }
+  .team .name{
+    color: #000;
+    font-weight: bold;
+  }
+  .team .desig{
+    font-size: 0.8em;
+    padding: 0.5em 0;
+  }
+  .team .share{
+    margin: 0 auto;
+    width: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .team i{
+    padding: 0.5em 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    color:  #CA1236;
+  }
+  .team i:hover{color: #000;}
+  .team p{
+    /* max-width: 27em;
+    margin: 0 auto; */
+    font-size: 0.8em;
+    text-align: justify;
+  }
+  
+  @media (min-width: 38.4rem){
+    .team{
+        font-size: 1.2em;
+    }
+    .team .team-body{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .team p{
+        padding: 1em;
+    }
+  }
+  
+
+#edu h2 {
+  color: #CA1236;
+  font-size: 2.4em;
+}
+
+#edu h4 {
+  color: #FFB30F;
+  font-size: 1.8em;
+}
+
+.wrapper {
+	position:relative;
+
+}
+
+.wrapper img {
+	width:100%;
+	height:100%;
+}
+
+.wrapper iframe {
+	display:none;
+}
+
+.play-btn {
+	position:absolute;
+	z-index:666;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background-color:transparent;
+	border:0;
+}
+
+.play-btn:hover {
+	cursor:pointer;
+}
+
+.play-btn:focus {
+	outline:0;
+}
+
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #fed136;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #35393fee;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+@media (min-width: 1025px){
+  .navbar li {
+      padding-left : .5em;
+      padding-right : 1em;
+      
+  }
+}
+.logo {
+  width: 200px;
+}
+
+@media (max-width:500px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+.dropdown-menu a {
+  border-bottom: 1px solid #25741154 ;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.dropdown-menu a:last-child {
+  border-bottom: none;
+}
+
